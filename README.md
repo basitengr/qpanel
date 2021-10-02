@@ -113,13 +113,13 @@ To use a FreeSWITCH need install `SWIG`. In system Debian base run
 ## 2. Install dependencies
 
 ```
- $ pip install -r requirements.txt
+ $ pip3 install -r requirements.txt
 ```
 If dont have pip in your system. For install
 
 ### Debian and Ubuntu
  ```
- sudo apt-get install python-pip
+ sudo apt-get install python3-pip
  ```
 
 ### Fedora
@@ -130,10 +130,18 @@ If dont have pip in your system. For install
 ### Get Javascript, CSS and external web libraries
 Is necessary have installed Node.
 
+Install nodejs
+```
+apt install nodejs
+```
+Install npm
+```
+curl -L https://www.npmjs.com/install.sh | sudo sh
+```
+then install npm modules 
  ```
     npm install
  ```
-
 
 ##  3. Go and prepair environment
  ```
@@ -152,7 +160,7 @@ Is necessary have installed Node.
 
 ## 5.- Run and relax
  ```
-    python app.py
+    python3 app.py
  ```
 
 Go url of machine http://IP:5000
@@ -192,7 +200,7 @@ Get the new code
 Update dependencies
 
 ```
-    pip install -r requirements.txt
+    pip3 install -r requirements.txt
     npm install
 ```
 
@@ -204,7 +212,7 @@ Update dependencies
 #### pip update
 
 For error in instalation process of requirements. `UserWarning: python_requires requires setuptools version > 24.3`
- `pip install --upgrade setuptool`
+ `pip3 install --upgrade setuptool`
 
 
 
